@@ -5,6 +5,5 @@ class Test extends CI_Controller {
 	public function index()
 	{
         $this->load->vars('foo', 'Hello bar');
-//        $this->output->set_output('ok');
 	}
 }
